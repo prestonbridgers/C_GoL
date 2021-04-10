@@ -1,5 +1,5 @@
 gol:
-	gcc -g -Wall gol.c -lcurses
+	gcc -g -Wall gol.c -lcurses -o gol
 
-run:
-	a.out
+clean:
+	rm a.out *.o
